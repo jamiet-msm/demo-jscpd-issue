@@ -2,6 +2,9 @@
 # See https://json.schemastore.org/github-workflow.json for vocabulary and rules
 name: CI
 
+on:
+  push:
+
 jobs:
   super-lint:
     name: Lint Code Base
